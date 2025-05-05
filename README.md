@@ -26,7 +26,6 @@ The dataset is sourced from the WISDM Lab at Fordham University. For more detail
 ## Project Structure
 ```
 .
-├── dataset/         # Contains the WISDM dataset
 ├── analysis/        # Analysis scripts and results
 ├── scripts/         # Implementation scripts
 ├── images/          # Visualization results
