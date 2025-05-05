@@ -1,0 +1,39 @@
+=== WISDM Cleaned & Balanced Dataset Analysis ===
+
+📊 Shape of dataset: (290364, 6)
+
+🔹 First 5 Rows:
+ User Activity       Timestamp      X      Y         Z
+   31  Jogging  23273351753000   1.88  -2.26 -7.890000
+   21 Standing 118781761603000  -1.18   9.28  1.500000
+   15  Walking   1384232280000  -2.87  10.15 -4.671779
+   29  Jogging   7638042918000  15.75  19.57 -7.014479
+   27 Upstairs  12105482404000 -17.08 -11.69  0.108963
+
+📈 Balanced Activity Counts:
+Activity
+Jogging       48394
+Standing      48394
+Walking       48394
+Upstairs      48394
+Downstairs    48394
+Sitting       48394
+
+🧪 Missing Values per Column:
+User         0
+Activity     0
+Timestamp    0
+X            0
+Y            0
+Z            0
+
+📐 Statistical Summary:
+                User     Timestamp              X              Y              Z
+count  290364.000000  2.903640e+05  290364.000000  290364.000000  290364.000000
+mean       19.417624  3.699821e+13       0.492132       6.939536       1.307799
+std        10.083154  5.109103e+13       5.952458       5.916556       4.587296
+min         1.000000  0.000000e+00     -19.610000     -19.610000     -19.700000
+25%        11.000000  2.285007e+12      -2.530000       3.210000      -1.310000
+50%        20.000000  1.218285e+13       0.000000       7.930000       0.800000
+75%        29.000000  5.885361e+13       3.830000       9.960000       3.790000
+max        36.000000  2.093973e+14      19.950000      20.040000      19.610000

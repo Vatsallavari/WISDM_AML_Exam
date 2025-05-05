@@ -1,0 +1,29 @@
+=== WISDM Activity Classifier Evaluation ===
+
+📊 Accuracy       : 0.6053
+🎯 F1 Score       : 0.6006
+🔍 Precision      : 0.5969
+📈 Recall         : 0.6053
+
+🧩 Confusion Matrix:
+      0     1     2     3     4     5
+0  3526  1333    34   334  2181  2270
+1  1094  6182    51    50   950  1352
+2    28    34  9511    57    33    16
+3   167    13    25  9110   273    91
+4  2361  1432    44   507  3022  2313
+5  2211  1363    16   227  2060  3802
+
+🧾 Classification Report:
+              precision    recall  f1-score   support
+
+  Downstairs       0.38      0.36      0.37      9678
+     Jogging       0.60      0.64      0.62      9679
+     Sitting       0.98      0.98      0.98      9679
+    Standing       0.89      0.94      0.91      9679
+    Upstairs       0.35      0.31      0.33      9679
+     Walking       0.39      0.39      0.39      9679
+
+    accuracy                           0.61     58073
+   macro avg       0.60      0.61      0.60     58073
+weighted avg       0.60      0.61      0.60     58073

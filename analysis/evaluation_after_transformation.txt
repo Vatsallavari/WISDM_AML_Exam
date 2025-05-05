@@ -1,0 +1,28 @@
+=== WISDM Evaluation After Transformation ===
+
+📊 Accuracy : 0.6421
+🎯 F1 Score : 0.6350
+🔍 Precision: 0.6328
+📈 Recall   : 0.6421
+
+🧩 Confusion Matrix:
+9553  2462    43   939 3796  5536
+1965 14835   128   115 1608  3678
+  63    41 22011   121   78    16
+ 120     2    12 21652  449    95
+4515  3251    72  1417 6979  6096
+4041  2786    29   619 3859 10995
+
+🧾 Classification Report:
+              precision    recall  f1-score   support
+
+  Downstairs       0.47      0.43      0.45     22329
+     Jogging       0.63      0.66      0.65     22329
+     Sitting       0.99      0.99      0.99     22330
+    Standing       0.87      0.97      0.92     22330
+    Upstairs       0.42      0.31      0.36     22330
+     Walking       0.42      0.49      0.45     22329
+
+    accuracy                           0.64    133977
+   macro avg       0.63      0.64      0.63    133977
+weighted avg       0.63      0.64      0.64    133977
